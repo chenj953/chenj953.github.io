@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lab 3</title>
+    <title>Lab 6: Rare Shop Part 3 </title>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
-  <body>
+  <body> 
+    <div class="header">
+        Cyber Shop.
+      <div class="cart-button cart-toggle">
+        Cart (<span class="item-count">0</span>)
+      </div>
+      <div class="cart hide">
+        <div class="close-button cart-toggle">Close</div>
+        <div class="line-items"></div>
+        <div class="total-wrapper">
+          Total <span data-value="0" class="total"> 0 </span>
+        </div>
+        <div class="checkout-button">Check Out</div>
+        </div>
+    </div>
+
+    <div class="content">
+
+      <div class="item a" data-target=".item.a" data-price="$10" data-value="10" data-img="a">
+        <img src="assets/img/a.gif" />
+        <div class="description">
+          Superpower. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item b" data-target=".item.b" data-price="$10" data-value="10" data-img="b">
+        <img src="assets/img/b.gif" />
+        <div class="description">
+          Enemy. <span class="add-button">Add</span>
+        </div>
+      </div>
     
+      <div class="item c" data-target=".item.c" data-price="$10" data-value="10" data-img="c">
+        <img src="assets/img/c.gif" />
+        <div class="description">
+          Dream. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item d" data-target=".item.d" data-price="$10" data-value="10" data-img="d">
+        <img src="assets/img/d.gif" />
+        <div class="description">
+          Apocalypse. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item e" data-target=".item.e" data-price="$10" data-value="10" data-img="e">
+        <img src="assets/img/e.gif" />
+        <div class="description">
+          Soul Mate. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item f" data-target=".item.f" data-price="$10" data-value="10" data-img="f">
+        <img src="assets/img/f.gif" />
+        <div class="description">
+          Friends. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item g" data-target=".item.g" data-price="$10" data-value="10" data-img="g">
+        <img src="assets/img/g.jpg" />
+        <div class="description">
+          $10 <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item h" data-target=".item.h" data-price="$5" data-value="5" data-img="h">
+        <img src="assets/img/h.jpg" />
+        <div class="description">
+          $5 <span class="add-button">Add</span>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 
 <script src="assets/js/app.js"></script>

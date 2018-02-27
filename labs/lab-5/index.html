@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lab 3</title>
+    <title>Lab 5: Rare Shop </title>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
-  <body>
+  <body> 
+    <div class="header">
+        Only One Left.
+      <div class="cart-button cart-toggle">
+        Cart (<span class="item-count">0</span>)
+      </div>
+      <div class="cart hide">
+        <div class="close-button cart-toggle">Close</div>
+        <div class="line-items"></div>
+        <div class="checkout-button">Check Out</div>
+        </div>
+    </div>
+
+    <div class="content">
+
+      <div class="item" data-price="Superpower" data-img="a">
+        <img src="assets/img/a.gif" />
+        <div class="description">
+          Superpower. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Enemy" data-img="b">
+        <img src="assets/img/b.gif" />
+        <div class="description">
+          Enemy. <span class="add-button">Add</span>
+        </div>
+      </div>
     
+      <div class="item" data-price="Dream" data-img="c">
+        <img src="assets/img/c.gif" />
+        <div class="description">
+          Dream. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Apocalypse" data-img="d">
+        <img src="assets/img/d.gif" />
+        <div class="description">
+          Apocalypse. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Soul Mate" data-img="e">
+        <img src="assets/img/e.gif" />
+        <div class="description">
+          Soul Mate. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Friends" data-img="f">
+        <img src="assets/img/f.gif" />
+        <div class="description">
+          Friends. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Superpower" data-img="g">
+        <img src="assets/img/g.jpg" />
+        <div class="description">
+          $9,999. <span class="add-button">Add</span>
+        </div>
+      </div>
+      
+      <div class="item" data-price="Superpower" data-img="h">
+        <img src="assets/img/h.jpg" />
+        <div class="description">
+          $1,799. <span class="add-button">Add</span>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 
 <script src="assets/js/app.js"></script>
