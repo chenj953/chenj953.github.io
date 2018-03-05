@@ -12,9 +12,9 @@ body{
 .neon{
 	position: absolute;
 	top: 20%;
-	left: 50%;
 	transform: translate(-50%,-50%);
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 6em;
 	color: #fff;
@@ -48,9 +48,9 @@ body{
 .content1{
 	position: absolute;
 	top: 38%;
-	left: 45%;
 	text-align: center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 2em;
 	color: #fff;
@@ -59,20 +59,21 @@ body{
 .content2{
 	position: absolute;
 	top: 600px;
-	left: 46.5%;
 	text-align: center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px 0 10px 20px;
 	font-size: 2em;
 	color: #fff;
+	display:block;
 }
 
 .content3{
 	position: absolute;
 	top: 1500px;
-	left: 46.5%;
 	text-align: center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 2em;
 	color: #fff;
@@ -81,9 +82,9 @@ body{
 .content4-1{
 	position: absolute;
 	top: 2550px;
-	left: 38%;
 	text-align: center center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 2em;
 	color: #fff;
@@ -92,9 +93,9 @@ body{
 .content4{
 	position: absolute;
 	top: 2600px;
-	left: 45%;
 	text-align: center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 2em;
 	color: #fff;
@@ -103,9 +104,9 @@ body{
 .content5{
 	position: absolute;
 	top: 2850px;
-	left: 46.5%;
 	text-align: center;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0 20px;
 	font-size: 2em;
 	color: #fff;
@@ -114,24 +115,30 @@ body{
 .data-img {
 	position: absolute;
 	top: 30%;
-	left: 19.2%;
 	width: 550px;
 	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: block;
 }
 .a{background-image: url('../img/a.jpg');}
 .b{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 650px;
-	left: 350px;
+	display: block;
 	width: 550px;
 	height: 450px;
 	background-image: url('../img/b.jpg');
 }
 .c{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 1100px;
 	left: 350px;
 	width: 550px;
@@ -140,6 +147,8 @@ body{
 }
 .d{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 1550px;
 	left: 350px;
 	width: 550px;
@@ -148,6 +157,8 @@ body{
 }
 .e{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 1999px;
 	left: 350px;
 	width: 550px;
@@ -157,6 +168,8 @@ body{
 }
 .f{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 2650px;
 	left: 350px;
 	width: 550px;
@@ -166,6 +179,8 @@ body{
 }
 .g{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 2900px;
 	left: 350px;
 	width: 550px;
@@ -175,6 +190,8 @@ body{
 }
 .h{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 3250px;
 	left: 350px;
 	width: 550px;
@@ -186,6 +203,8 @@ body{
 /* step 1 */
 button{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 1400px;
 	left: 500px;
 	width: 260px;
@@ -206,6 +225,8 @@ button{
 button:before{
 	content: '';
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 0;
 	left: 0;
 	width: 40px;
@@ -225,6 +246,8 @@ button:hover:before{
 button:after{
 	content: '';
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 0;
 	right: 0;
 	width: 40px;
@@ -252,6 +275,8 @@ button:hover{
 /* step 1 */
 ul{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	top: 2500px;
 	left: 40%;
 	margin: 0;
