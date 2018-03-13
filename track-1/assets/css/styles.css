@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+/* .wrapper{
+	position: relative;
+} */
+
+.fullscreen-bg__video {
+	position: relative;;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+img{
+	position: absolute;
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 30px;
+	right: 60px;
+	top: 800px;
+	box-shadow:0px 0px 10px rgb(0, 255, 213),
+	0px 0px 20px rgb(0, 255, 213),
+	0px 0px 30px rgb(0, 255, 213),
+	0px 0px 40px rgb(0, 255, 213),
+	0px 0px 50px rgb(0, 255, 213),
+	0px 0px 60px rgb(0, 255, 213);
+}
+
+.h1{
+	position: absolute;
+	top: 100px;
+	text-align: left;
+	line-height: 130px;
+	color: white;
+	font-size: 110px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin: 20px 30px;
+	width: 80%;
+	transition: .5s ease;
+	text-shadow: 0px 0px 10px blue,
+							 0px 0px 20px blue,
+							 0px 0px 30px blue,
+							 0px 0px 40px blue,
+							 0px 0px 50px blue,
+							 0px 0px 60px blue;
+}
+
+.h1:hover{
+	color: black;
+}
+
+.h2{
+	position: absolute;
+	top: 420px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	transition: .5s ease;
+	font-size: 40px;
+	margin: 10px 30px;
+	width: 50%;
+	text-shadow: 0px 0px 10px rgb(4, 102, 221),
+							 0px 0px 20px rgb(4, 102, 221),
+							 0px 0px 30px rgb(4, 102, 221),
+							 0px 0px 40px rgb(4, 102, 221),
+							 0px 0px 50px rgb(4, 102, 221),
+							 0px 0px 60px rgb(4, 102, 221);
+}
+
+.h2:hover{
+	color: black;
+}
+
+.p{
+	position: absolute;
+	top: 800px;
+	text-align: left;
+	letter-spacing: -.5px;
+	line-height: 35px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: 25px;
+	margin: 10px 0 60px 30px;
+	width: 50%;
+}
+
+.caption{
+	position: absolute;
+	top: 1140px;
+	letter-spacing: -.5px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: 16px;
+	margin: 10px 0 60px 30px;
+	left: 970px;
+	text-decoration: none;
+}
+
+.caption:hover{
+	color: black;
+}
+
